@@ -38,6 +38,11 @@ class _MyHomePageState extends State<MyHomePage> {
 
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
+            GetX<Controller>(
+              builder: (controller){
+                return Text(controller.l,style: TextStyle(fontSize: 25),);
+              },
+            ),
             const Text(
               'You have pushed the button this many times:',
             ),

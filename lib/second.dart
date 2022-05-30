@@ -33,7 +33,11 @@ class _SecondPageState extends State<SecondPage> {
           ),
         ),
       floatingActionButton: FloatingActionButton(
-        onPressed: c.increment,
+        //onPressed: c.increment,
+        onPressed:() =>
+        {
+          c.increment()
+        },
         child: const Icon(
         Icons.add
       ),

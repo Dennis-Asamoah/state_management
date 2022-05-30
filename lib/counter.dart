@@ -2,8 +2,8 @@ import 'package:get/get.dart';
 
 class Controller extends GetxController{
   var count = 0.obs;
-  var k = [12] ;
-  //var l = k.length;
+  var k = [12].obs ;
+  String get  l => k.length.toString();
   // String get x {
   //   return k.length.toString();
   // }
